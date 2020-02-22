@@ -1,0 +1,25 @@
+.light {
+  --color: red;
+  --bgColor: black;
+  --wholeBg: #d6d6d6;
+}
+
+.dark {
+  --color: blue;
+  --bgColor: white;
+  --wholeBg: #5c5c5c;
+}
+
+body {
+  background: var(--wholeBg);
+}
+
+h1 {
+  color: var(--color);
+}
+
+.customButton {
+  color: var(--color);
+  background: var(--bgColor);
+  border: none;
+}
